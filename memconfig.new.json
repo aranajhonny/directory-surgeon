@@ -1,0 +1,20 @@
+{
+  "schema": {
+    "types": {
+      "Root": {
+        "getSchema": {
+          "kind": "action",
+          "params": {
+            "name": "String"
+          },
+          "type": "String"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "github": "github:",
+    "http": "http:",
+    "directory": "github:users.one(name:\"membrane-io\").repos.one(name:\"directory\").content"
+  }
+}
